@@ -1,6 +1,5 @@
 import React, {ReactElement} from "react";
 import {GraphCanvas} from "reagraph";
-import {render} from "react-dom";
 import {createRoot} from "react-dom/client";
 
 export function RelationshipGraph(): ReactElement<unknown, string> {
